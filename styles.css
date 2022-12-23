@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('images/sunny.jpg');
+    background-image: url('images/sunny.jfif');
     height: 100vh;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -13,9 +13,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
 }
+.body img{
+    object-fit: cover;
+}
 
 .app-main {
-    width: 50vh;
+    width: 60vh;
     margin: 100px auto;
     background-color: rgba(240,248,255, 0.6);
     padding: 20px;
@@ -31,7 +34,7 @@ body {
     background-color: rgba(255,255,255,0.6);
     border: none;
     outline: none;
-    color: #582233;
+    color: black;
     font-size: 1.2rem;
     height: 50px;
     border-radius: 5px;
@@ -46,7 +49,7 @@ body {
 
 .weather-body {
     display: none;
-    color: #582233;
+    color: #111111;
     padding: 20px;
     line-height: 2rem;
     border-radius: 10px;
