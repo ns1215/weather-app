@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('images/sunny.jfif');
+    background-image: url('images/sunny.jpg');
     height: 100vh;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
     background-size: cover;
 }
 .body img{
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .app-main {
